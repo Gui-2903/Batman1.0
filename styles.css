@@ -1,0 +1,200 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-color: #DDDDDD; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapers.com/images/hd/2560-x-1440-batman-ep7on10owhq2t1h5.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+  width: 0%;
+  height: 0%;
+}
+
+
+/* Estiliza os títulos h1 */
+
+
+/* Estiliza as seções da página */
+
+/* Estiliza os inputs dentro das seções */
+section input {
+  width: 30rem; /* Largura dos inputs */
+  border: none; /* Remove a borda padrão */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 5rem; /* Borda arredondada */
+  margin-bottom: 2rem; /* Espaçamento abaixo dos inputs */
+  color: #ccd9ec; /* Cor do texto */ /* Cor do texto */
+  font-size:  99%; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  color: #000000;
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+  padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda padrão */
+  border-radius: 1.5rem; /* Borda arredondada */
+  background-color: #30475E; /* Cor de fundo do botão */
+  color: #80b7d2; /* Cor do texto do botão */
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+  position: absolute;
+  width: 70%;
+  height: 50%;
+  top: 105%;
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;/* Altura máxima da caixa de resultados */
+  /*overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  gap: 3%;                /* Espaçamento abaixo de cada seção */
+  left: 50%;
+  
+}
+
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  background: #e7d6d6; /* Cor de fundo dos itens */
+  border-radius: 0.6rem; /* Borda arredondada */
+  /* Espaçamento interno */
+     /* Espaçamento abaixo dos itens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  
+  
+    
+    
+    
+    
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+
+
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #1b526e53; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0px; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: fixed; /* Posiciona o rodapé */
+    bottom: 0%; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    height: 10%;
+    
+    
+}
+#botao{
+  position: absolute;
+  top: 70%;
+  width: 50%; /* Ocupa 100% da largura do container pai */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+  padding:2ch;
+  transform: translateX(-50%);
+  margin-bottom: 0px;
+  text-align: center;
+  
+}
+#go{
+  position: absolute;
+  top: 78%;
+  width:12%; /* Ocupa 100% da largura do container pai */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+  padding: 10px;
+  transform: translateX(-50%) ;
+  text-align: center;
+  animation: pulse2 1s infinite ;
+  
+  
+  
+}
+#go:hover {
+    /* Estilo quando o mouse passa por cima */
+   
+  box-shadow: 5px 5px 20px rgba(126, 119, 119, 0.452);
+  }
+
+.logoBat{
+    width: 90px;
+    filter: invert(80%);
+    opacity: 0.5;
+    top: 20%;
+    animation: pulse 10s infinite;
+    
+}
+@keyframes pulse {
+    0%{transform: scale(2);}
+    40%{transform: scale(3);}
+    65%{transform: scale(4);}
+    100%{transform: scale(2);}
+}
+
+.nBat {
+    
+    font-size: 450%;
+    color: #ffffff5f; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 1.5rem; /* Espaçamento entre letras */
+    transform: translateX(2.5%) ;
+}
+.imgitem{
+    
+  position: relative;
+  width:30%; /* Ocupa 100% da largura do container pai */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  top: 50%;
+  left: 13%;
+  
+}
+img{
+  width: 70%;
+  border-radius: 13%;
+  transition: transform 1.3s ease;
+  
+}
+img:hover {
+  transform: scale(1.06); /* Aumenta a imagem em 10% */
+}
+
+.texto{
+  position: relative;
+  width: 70%;
+  height: 70%; /* Ocupa 100% da largura do container pai */
+  /* Inclui padding e border no cálculo da largura */
+  transform: translateX(-50%) translateY(-50%);
+  left: 60%;
+  bottom: 13%;
+  
+}
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 10%; /* Tamanho para telas menores (celulares) */
+    }
+  }
